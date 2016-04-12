@@ -1,0 +1,12 @@
+[submodule "dojo/dojo"]
+	path = dojo/dojo
+	url = https://github.com/dojo/dojo.git
+[submodule "dojo/dijit"]
+	path = dojo/dijit
+	url = https://github.com/dojo/dijit.git
+[submodule "dojo/dstore"]
+	path = dojo/dstore
+	url = https://github.com/SitePen/dstore
+[submodule "dojo/dgrid"]
+	path = dojo/dgrid
+	url = https://github.com/SitePen/dgrid

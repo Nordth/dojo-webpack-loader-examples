@@ -1,0 +1,28 @@
+{
+  "name": "dojo-webpack-loader-examples",
+  "version": "1.0.0",
+  "description": "Examples for dojo-webpack-loader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nordth/dojo-webpack-loader-examples.git"
+  },
+  "keywords": [
+    "dojo",
+    "webpack",
+    "toolkit",
+    "dgrid",
+    "dstore",
+    "loader",
+    "examples"
+  ],
+  "author": "Nordth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nordth/dojo-webpack-loader-examples/issues"
+  },
+  "homepage": "https://github.com/Nordth/dojo-webpack-loader-examples#readme"
+}
