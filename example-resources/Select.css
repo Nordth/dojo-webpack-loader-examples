@@ -1,0 +1,56 @@
+.mySelect {
+	border: 1px solid #b5bcc7;
+	background-color: #fff;
+
+	height: 17px;
+	position: relative;
+	padding: 0;
+}
+.mySelect .label {
+	line-height: 17px;
+	vertical-align: middle;
+}
+.mySelect .arrow {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-image: url("//ajax.googleapis.com/ajax/libs/dojo/1.10.4/dijit/themes/claro/form/images/commonFormArrows.png");
+	background-position: -35px 70%;
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	border: 1px solid #fff;
+	border-top: none;
+	background-color: #efefef;
+}
+
+.mySelect .dgrid {
+	cursor: default;
+	display: none;
+	position: absolute;
+	top: 17px;
+	left: -1px;
+	height: auto;
+	max-height: 20em;
+	width: 100%;
+}
+.mySelect .dgrid-scroller {
+	position: relative;
+}
+
+.mySelect .opened {
+	display: block;
+}
+
+.mySelect .One {
+	color: blue;
+}
+.mySelect .Two {
+	color: red;
+}
+.mySelect .Three {
+	color: green;
+}
+.mySelect .Four {
+	color: orange;
+}

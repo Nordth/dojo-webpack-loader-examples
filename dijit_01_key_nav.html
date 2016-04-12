@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Dijit 01 - key nav - dojo-webpack-config</title>
+</head>
+<style>
+    table {
+        width: 20em;
+        margin: 3em 0 0 3em;
+    }
+    table, td {
+        border: 1px solid gray;
+    }
+    td {
+        padding: 0.5em;
+    }
+    td:focus {
+        background-color: yellow;
+    }
+</style>
+<body>
+    <p><h1>Click on a cell below, then try navigating:</h1>
+    <ul>
+        <li>up, down, left, right</li>
+        <li>home, end</li>
+        <li>Letters - "a" for "apple", "b" for "banana", etc</li>
+    </ul>
+    </p>
+    <table data-dojo-type="MyGrid" id="grid">
+        <tr>
+            <td data-dojo-type="MyCell">apple</td>
+            <td data-dojo-type="MyCell">banana</td>
+            <td data-dojo-type="MyCell">orange</td>
+        </tr>
+        <tr>
+            <td data-dojo-type="MyCell">pear</td>
+            <td data-dojo-type="MyCell">grapes</td>
+            <td data-dojo-type="MyCell">strawberry</td>
+        </tr>
+    </table>
+
+    <script src="bundle/dijit_01_key_nav.bundle.js"></script>
+</body>
+</html>

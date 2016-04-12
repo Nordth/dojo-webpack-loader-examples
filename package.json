@@ -24,5 +24,9 @@
   "bugs": {
     "url": "https://github.com/Nordth/dojo-webpack-loader-examples/issues"
   },
-  "homepage": "https://github.com/Nordth/dojo-webpack-loader-examples#readme"
+  "homepage": "https://github.com/Nordth/dojo-webpack-loader-examples#readme",
+  "dependencies": {
+    "dojo-webpack-loader": "^0.9.1",
+    "webpack": "^1.12.15"
+  }
 }

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>DGrid 02 - stores - dojo-webpack-config</title>
+    <link rel="stylesheet" href="dojo/dgrid/css/dgrid.css">
+</head>
+<body>
+    <h1>Demo: Querying and Sorting Programmatically</h1>
+    <form id="queryForm">
+        <label for="lastField">Last name contains:</label>
+        <input id="lastField" name="last">
+        <button type="submit">Filter</button>
+        <button type="reset">Reset</button>
+        <button id="sortLastAsc">Sort by Last Name, Ascending</button>
+        <button id="sortGamesDesc">Sort by Games Played, Descending</button>
+    </form>
+    <div id="grid"></div>
+    <script src="bundle/dgrid_02_stores.bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+.grid {
+	width: 700px;
+	margin: 10px;
+}
+
+/* Default all cells to 80px width */
+.grid .dgrid-cell {
+	width: 80px;
+}
+
+/* Make the columns for first/last name wider */
+.grid .field-first,
+.grid .field-last {
+	width: 100px;
+}
+
+/*
+	For the columnset example, make each columnset occupy
+	half the total grid width.
+*/
+.grid .dgrid-column-set-cell {
+	width: 50%;
+}
+
+.summary-row {
+	font-weight: bold;
+}
+
+.dgrid {
+	width: 500px;
+	margin: 1em;
+}
+
+.dgrid-cell {
+	width: 100px;
+}
+
+.field-name, .dgrid-column-set-0 {
+	width: 200px;
+}
+
+.dgrid-column-set-0 .field-name {
+	/* When rendered within the column set, simply fit the column set */
+	width: 100%;
+}
+
+#gridColumnSet {
+	height: 15em;
+}

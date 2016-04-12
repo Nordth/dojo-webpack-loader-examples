@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Dijit 05 - templated - dojo-webpack-config</title>
+    <link rel="stylesheet" href="./example-resources/dijit_demo.css">
+    <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/dojo/1.10.4/dijit/themes/claro/claro.css" media="screen">
+    <style>
+        .someWidget {
+            border: 1px solid #999;
+        }
+        .someWidgetTitle {
+            background-color: #efefef;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .someWidgetContainer {
+            margin: 1em;
+            border: 1px solid #ccc;
+            padding: 1em;
+        }
+    </style>
+</head>
+<body class="claro">
+    <h1>Demo: Using _TemplatedMixin</h1>
+    <div data-dojo-type="demo/SomeWidget" data-dojo-props="title:'Our Some Widget'">
+        <div>Don't forget to click on the title!</div>
+        <p>This is arbitrary content!</p>
+        <button data-dojo-type="dijit/form/Button">My Button</button>
+        <p>More arbitrary content!</p>
+    </div>
+    <script src="bundle/dijit_05_templated.bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>DGrid 05 - single query - dojo-webpack-config</title>
+    <link rel="stylesheet" href="dojo/dgrid/css/dgrid.css">
+    <link rel="stylesheet" href="./example-resources/examples.css">
+    <style>
+        /*
+            Custom visual styles for the grid
+            (dgrid.css is imported earlier for these to override it)
+        */
+
+        .dgrid, .dgrid-cell {
+            border: none;
+        }
+
+        .dgrid-cell {
+            padding: 1em;
+        }
+
+        .dgrid-header .dgrid-cell {
+            font-weight: bold;
+        }
+
+        .dgrid-row-odd {
+            background-color: #eef7ff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Demo: Single-Query Mixin with Auto-Height</h1>
+    <form id="queryForm">
+        <label for="lastField">Last name contains:</label>
+        <input id="lastField" name="last">
+        <button type="submit">Filter</button>
+        <button type="reset">Reset</button>
+    </form>
+    <div id="grid"></div>
+    <script src="bundle/dgrid_05_single_query.bundle.js"></script>
+</body>
+</html>
